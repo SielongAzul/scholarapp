@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+
+:root{
+    --offcanvas-width: 270px;
+  }
+
+  .sidebar-nav{
+    width: var(--offcanvas-width);
+  }
+
+  @media (min-width:992px) {
+    .sidebar-nav{
+      transform: none;
+      visibility: visible !important;
+    }
+  }
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+
+
+#about-us{
+    background-color: #fb6a4a;
+}
+
+
+
+
+.navbar-custom{
+    background-color:#cb181d;
+}
+
+
+
+.hero-button{
+
+    margin-left: 100px;
+}
+
+
+.feature-icon{
+    font-size: 3rem;
+    vertical-align: middle;
+    color: rgb(183, 4, 4);
+    padding: 24px;
+    
+
+}
+
+
+ .fa-1, .fa-2, .fa-3{
+    font-size: 3rem;
+    vertical-align: middle;
+    padding: 24px;
+    
+}
+
+.background-login{
+
+    padding:25px;
+}
+
+
+.column-hero-text{
+
+    background-color: rgb(183, 4, 4);   
+}
+
+.color-custom{
+    background-color:rgb(183, 4, 4);
+}
+
+.feature-box{
+    padding-top:20px;
+    padding-bottom:50px;
+    
+
+}
+
+.footer-message{
+    text-indent: 10%;
+}
+
+
+
+
+
+
